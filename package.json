@@ -1,0 +1,19 @@
+{
+    "name": "simplehttpnode",
+    "version": "0.1.0",
+    "description": "SimpleHTTPServer for node with CORS enabled and an endpoint for retrieving the list of filenames being served",
+    "author": "Nathan Evans <evans.nathan.j@gmail.com>",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "main": "server.js",
+    "dependencies": {
+        "graceful-fs": "*",
+        "path": "*",
+    	"process": "*"
+    },
+    "bin": {
+        "simplehttpnode": "server.js"
+    },
+    "license": "MIT"
+}
